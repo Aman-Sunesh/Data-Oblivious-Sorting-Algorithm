@@ -12,13 +12,6 @@ int findPivotIndex(int l, int r)
     return (l + r) / 2;
 }
 
-void swap(Data A[], int i, int j)
-{
-    Data temp = A[i];
-    A[i] = A[j];
-    A[j] = temp;
-}
-
 void quickSort(vector<Data>& A, int l, int r)
 {
     if (l >= r)
